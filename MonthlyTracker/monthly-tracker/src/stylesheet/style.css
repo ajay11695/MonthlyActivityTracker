@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ******************* */
+body{
+   padding: 2rem;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.textalign{
+    text-align: center;
+}
+
+/* flex */
+.flex{
+    display: flex;
+}
+
+
+.flex-center{
+    justify-content: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.flex-30{
+    width: 30%;
+    background-color: rgb(159, 203, 241);
+}
+.flex-60{
+    width: 65%;
+}
+
+
+/* btn */
+.btn{
+    background-color: rgb(11, 116, 11,0.8);
+    color: white;
+    border: none;
+}
+
+.btn2{
+    margin:.2rem  .7rem 0 .7rem;
+    width: 2rem ;
+    height: 2rem;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.btn3{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: rgb(232, 95, 95);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.active{
+    background-color: rgb(11, 116, 11,0.8);
+    color: white;
+}
+
+/* header */
+h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    color: rgb(6, 6, 219);
+}
+
+/* form */
+form{
+   width: 25rem;
+}
+
+input{
+    height: 2rem;
+    width: 60%;
+    font-size: 1rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+}
+
+/* month */
+.month{
+    width: 60%;
+    height: 20vh;
+    padding: .5rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 5px rgb(168, 167, 167);
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+h3{
+   background-color:rgb(213, 100, 80);
+   padding: .1rem .4rem;
+   color: white;
+}
